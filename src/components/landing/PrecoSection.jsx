@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
@@ -95,7 +94,7 @@ const PrecoSection = () => {
                   <Button
                     asChild
                     size="lg"
-                    className="bg-green-500 hover:bg-green-600 text-white text-base md:text-xl px-4 md:px-16 py-4 md:py-8 rounded-full font-bold shadow-2xl w-full md:w-auto min-w-[300px] h-auto whitespace-normal"
+                    className="bg-green-500 hover:bg-green-600 text-white text-sm xs:text-base md:text-xl px-4 xs:px-6 md:px-16 py-3 xs:py-4 md:py-8 rounded-full font-bold shadow-2xl w-full min-w-0 md:w-auto md:min-w-[300px] h-auto whitespace-normal"
                   >
                     <a href="https://pay.kiwify.com.br/N3pvQQd" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                       QUERO GARANTIR MINHA LIBERDADE
