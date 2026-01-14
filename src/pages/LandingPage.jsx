@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <>
       <Helmet>
-        <title>Método LPV - Pare de viajar como pobre pagando preço de rico</title>
+        <title>Método LPV - Liberdade para viajar</title>
         <meta 
           name="description" 
           content="Aprenda a viajar mais barato com o Método LPV. Descubra como usar milhas e pontos para economizar em passagens aéreas e realizar seus sonhos de viagem." 
