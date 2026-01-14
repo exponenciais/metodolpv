@@ -68,7 +68,7 @@ const ProblemaSection = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#B59459] rounded-2xl transform rotate-3"></div>
                 <img
-                  src="https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/ec440b5625d388cef87fad1da7df5cda.jpg"
+                  src="public/Lissa2.jpeg"
                   alt="Lissa Ramos"
                   className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-[3/4]"
                 />
