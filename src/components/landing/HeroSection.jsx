@@ -75,7 +75,7 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#B59459]/20 to-transparent rounded-2xl transform rotate-3 scale-105"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 backdrop-blur-sm bg-white/5">
                    <img 
-                      src="https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/2d8d01d6048c449e0c0f99c9eea7ad21.jpg" 
+                      src="LissaHero" 
                       alt="Lissa Ramos" 
                       className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
                    />
