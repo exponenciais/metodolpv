@@ -19,7 +19,7 @@ const BonusSection = () => {
     },
     {
       title: "Curso CDIEA$Y + CDIEA$Y AI",
-      description: "Método completo de educação financeira com IA personalizada",
+      description: "Método completo de educação financeira, fundado pelo especialista em finanças Theo Lima, com IA personalizada",
       value: "R$ 97,00",
       image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/ae46741edde24271dcf32b9b1babe813.png",
       strikethrough: true
