@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
@@ -68,7 +67,7 @@ const ProblemaSection = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#B59459] rounded-2xl transform rotate-3"></div>
                 <img
-                  src="Lissa2.jpeg"
+                  src="/Lissa2.jpeg"
                   alt="Lissa Ramos"
                   className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-[3/4]"
                 />
