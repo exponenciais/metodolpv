@@ -37,13 +37,12 @@ const PrecoSection = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="bg-white rounded-2xl shadow-2xl p-6 md:p-12 mb-8"
           >
-            {/* Logo area */}
             <div className="flex justify-center mb-8">
-               <img 
-                 src="https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/c564d460aa69a6070fd5e490bc0bb28e.png" 
-                 alt="LPV Logo" 
-                 className="w-32 md:w-48 h-auto"
-               />
+              <img 
+                src="/logo-lpv.png"
+                alt="LPV Logo" 
+                className="w-32 md:w-48 h-auto"
+              />
             </div>
 
             <div className="mb-8">
@@ -101,7 +100,6 @@ const PrecoSection = () => {
                     </a>
                   </Button>
                 </motion.div>
-
               </motion.div>
             </div>
           </motion.div>
@@ -112,17 +110,15 @@ const PrecoSection = () => {
             transition={{ delay: 1, duration: 0.6 }}
             className="text-center"
           >
-             {/* Limited Time Badge moved outside */}
             <div className="inline-block mb-6">
-               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 md:p-4 mb-4">
-                  <p className="text-white font-bold text-base md:text-lg">
-                    🎁 Economia de mais de R$ 420,00
-                  </p>
-                </div>
-                
-                <div className="bg-red-600 text-white px-4 py-2 rounded-full text-sm md:text-base font-bold animate-pulse mx-auto inline-block shadow-lg">
-                  POR TEMPO LIMITADO
-                </div>
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 md:p-4 mb-4">
+                <p className="text-white font-bold text-base md:text-lg">
+                  🎁 Economia de mais de R$ 420,00
+                </p>
+              </div>
+              <div className="bg-red-600 text-white px-4 py-2 rounded-full text-sm md:text-base font-bold animate-pulse mx-auto inline-block shadow-lg">
+                POR TEMPO LIMITADO
+              </div>
             </div>
 
             <div className="flex items-center justify-center gap-2 text-gray-300">
