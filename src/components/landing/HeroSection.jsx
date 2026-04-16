@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -29,8 +28,8 @@ const HeroSection = () => {
                initial={{ scale: 0.8, opacity: 0 }}
                animate={{ scale: 1, opacity: 1 }}
                transition={{ duration: 0.5 }}
-               src="https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/545f7dcd25c3d7e54d8cd7c130616256.png" 
-               alt="LPV Logo" 
+               src="/logo-lpv.png"
+               alt="LPV Logo - Liberdade para Viajar" 
                className="w-32 md:w-64 h-auto mb-8 mx-auto"
              />
 
@@ -75,8 +74,8 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#B59459]/20 to-transparent rounded-2xl transform rotate-3 scale-105"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 backdrop-blur-sm bg-white/5">
                    <img 
-                      src="LissaHero.jpeg" 
-                      alt="Lissa Ramos" 
+                      src="/LissaHero.jpeg"
+                      alt="Lissa Ramos viajando pela Europa" 
                       className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
                    />
                 </div>
