@@ -8,30 +8,27 @@ const HeroSection = () => {
       id="hero" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#00204E] via-[#001533] to-[#00204E]"
     >
-      {/* Abstract Background Shapes */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#B59459]/10 rounded-full blur-[100px]" />
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#B59459]/10 rounded-full blur-[100px]" />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-12 md:py-20 flex flex-col justify-center h-full">
-        
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8 mt-4 lg:mt-0">
-          {/* Left Column - Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             className="w-full lg:w-1/2 flex flex-col items-center justify-center text-center z-20"
           >
-             <motion.img 
-               initial={{ scale: 0.8, opacity: 0 }}
-               animate={{ scale: 1, opacity: 1 }}
-               transition={{ duration: 0.5 }}
-               src="/logo-lpv.png"
-               alt="LPV Logo - Liberdade para Viajar" 
-               className="w-32 md:w-64 h-auto mb-8 mx-auto"
-             />
+            <motion.img 
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.5 }}
+              src="/LPV Branca PNG.png"
+              alt="LPV Logo - Liberdade para Viajar" 
+              className="w-32 md:w-64 h-auto mb-8 mx-auto"
+            />
 
             <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-6 md:mb-8 leading-snug md:leading-tight font-heading">
               Viaje para qualquer lugar do mundo, <motion.span 
@@ -63,23 +60,22 @@ const HeroSection = () => {
             </motion.div>
           </motion.div>
 
-          {/* Right Column - Images */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="w-full lg:w-1/2 flex justify-center lg:justify-end"
           >
-             <div className="relative w-full max-w-md lg:max-w-lg">
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#B59459]/20 to-transparent rounded-2xl transform rotate-3 scale-105"></div>
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 backdrop-blur-sm bg-white/5">
-                   <img 
-                      src="/LissaHero.jpeg"
-                      alt="Lissa Ramos viajando pela Europa" 
-                      className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
-                   />
-                </div>
-             </div>
+            <div className="relative w-full max-w-md lg:max-w-lg">
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#B59459]/20 to-transparent rounded-2xl transform rotate-3 scale-105"></div>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 backdrop-blur-sm bg-white/5">
+                <img 
+                  src="/LissaHero.jpeg"
+                  alt="Lissa Ramos viajando pela Europa" 
+                  className="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
