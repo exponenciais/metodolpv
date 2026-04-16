@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
@@ -111,7 +110,7 @@ const FAQSection = () => {
             </div>
             
             <img 
-              src="https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/44ba358f6c184172842c1769deb15f9e.webp" 
+              src="/7dias.png"
               alt="Garantia 7 Dias" 
               className="w-48 md:w-56 h-auto mb-6 hover:scale-105 transition-transform duration-300"
             />
