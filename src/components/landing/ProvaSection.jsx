@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
@@ -11,36 +10,12 @@ const ProvaSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const testimonials = [
-    {
-      id: 1,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/fa082923f90bc4b9e1d1c0311550abed.jpg",
-      alt: "Depoimento: Lissa nós estamos impressionados..."
-    },
-    {
-      id: 2,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/99ae397d0d1df73ba233844df9718d26.jpg",
-      alt: "Depoimento: Nossa que aulas incríveeeeeeis!"
-    },
-    {
-      id: 3,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/6fd4794afac9a486e5c6ab2527f6a0e4.jpg",
-      alt: "Depoimento: Lissa queria te agradecer..."
-    },
-    {
-      id: 4,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/a5a3f0a1683c281a5ead5e2af189038f.jpg",
-      alt: "Depoimento: Obrigado Lissa pela elaboração..."
-    },
-    {
-      id: 5,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/01132fcd774dd9cfe21fb9637375fb6f.jpg",
-      alt: "Depoimento: Olá Lissa! Boa noite..."
-    },
-    {
-      id: 6,
-      image: "https://horizons-cdn.hostinger.com/b1e1b536-ff25-478e-ba49-dc458727b349/ead1cf9032d24a1a965ade55f870678e.jpg",
-      alt: "Depoimento: Muito satisfeito com esse curso..."
-    }
+    { id: 1, image: "/depoimento1.jpeg", alt: "Depoimento: Lissa nós estamos impressionados..." },
+    { id: 2, image: "/depoimento2.jpeg", alt: "Depoimento: Nossa que aulas incríveeeeeeis!" },
+    { id: 3, image: "/depoimento3.jpeg", alt: "Depoimento: Lissa queria te agradecer..." },
+    { id: 4, image: "/depoimento4.jpeg", alt: "Depoimento: Obrigado Lissa pela elaboração..." },
+    { id: 5, image: "/depoimento5.jpeg", alt: "Depoimento: Olá Lissa! Boa noite..." },
+    { id: 6, image: "/depoimento6.jpeg", alt: "Depoimento: Muito satisfeito com esse curso..." }
   ];
 
   return (
@@ -67,11 +42,11 @@ const ProvaSection = () => {
                 className="bg-white rounded-xl p-4 shadow-lg border-2 border-gray-200 hover:border-[#B59459] transition-all duration-300 flex flex-col h-full"
               >
                 <div className="flex-grow flex items-center justify-center mb-4 overflow-hidden rounded-lg bg-gray-50">
-                   <img 
-                     src={testimonial.image} 
-                     alt={testimonial.alt} 
-                     className="w-full h-auto object-contain max-h-[300px]"
-                   />
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.alt} 
+                    className="w-full h-auto object-contain max-h-[300px]"
+                  />
                 </div>
                 
                 <div className="flex justify-center mt-auto pt-2 border-t border-gray-100">
